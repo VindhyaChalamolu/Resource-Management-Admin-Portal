@@ -1,0 +1,225 @@
+.App {
+  /* text-align: center; */
+  font-family: "Gill Sans", sans-serif;
+  background-color: rgb(245, 245, 245, 0.4);
+}
+.navbar {
+  background-color:  #FFFFFF;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+  height: 30px
+}
+
+button {
+  border: 1px solid gainsboro;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.navbar button {
+  border-radius: 4px;
+  background: #2DCA73;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  margin: 5% 14%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.tabs button{
+  /* font-family: HK Grotesk; */
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+}
+
+.tabs .bt1 {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.tabs .bt3 {
+  border-radius: 0px 5px 5px 0px;
+}
+.searchbar {
+  display: flex;
+}
+
+.searchbar input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.resources-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 50px;
+  border-radius: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: start; */
+  align-items: start;
+  width: 300px;
+  border: 1px solid gainsboro;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.card img {
+  aspect-ratio: 1/1;
+  height: 50px;
+  width: 50px;
+  border-radius: 3px;
+}
+.card a {
+  text-decoration: none;
+  color: #0B69FF;
+  margin-top: 10px;
+}
+.font {
+  font-size: 14px;
+  font-weight: 400px;
+  color: #7E858E;
+}
+
+.card .icon {
+  display: flex;
+  column-gap: 10px;
+  font-size: 16px;
+  font-weight: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.add-item {
+  display: flex;
+  flex-direction: column;
+  width: 50%
+}
+form {
+  width: 350px;
+  margin: 0 auto;
+  padding: 8% 5% 5% 5%;
+}
+
+.formGroup {
+  margin-bottom: 25px;
+}
+
+form select {
+  width: 100%;
+  padding:8px;
+ box-sizing: border-box;
+}
+
+form label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #7E858E;
+  margin-bottom: 25px;
+}
+
+form button {
+  /* background-color:  #0B69FF; */
+  color: black;
+  align-self: center;
+  margin: auto;
+  left: 35%;
+  position: relative;
+}
+
+.add-item-layout {
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+form input, textarea{
+  width: 100%;
+  height: 40px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #7E858E;
+}
+
+.Toastify__toast--success {
+  background-color: green !important;
+  color: white !important;
+}
+
+.Toastify__progress-bar--success {
+  background-color: white !important;
+}
+
+.Toastify__toast--success .Toastify__toast-icon > svg {
+  fill: white !important;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.pagination li {
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.pagination li a {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination li a:hover {
+  background-color: #eee;
+}
+
+.pagination li.active a {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
+
+.pagination li.disabled a {
+  color: #ddd;
+  cursor: not-allowed;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px
+}
