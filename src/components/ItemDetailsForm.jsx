@@ -27,7 +27,6 @@ const ItemDetailsForm = () => {
     dispatch(setToInitials())
   },[dispatch])
   useEffect(() => {
-    console.log("addResourceSuccess",addResourceSuccess)
     if(addResourceError)
       toast.error("Error occuured while creating a resource!")
     if(addResourceSuccess) {
