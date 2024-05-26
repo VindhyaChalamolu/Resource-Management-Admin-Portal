@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Resource-Management-Admin-Portal/static/css/main.135082e2.css",
-    "main.js": "/Resource-Management-Admin-Portal/static/js/main.84f24a8e.js",
+    "main.js": "/Resource-Management-Admin-Portal/static/js/main.d1121501.js",
     "static/js/453.39230bbb.chunk.js": "/Resource-Management-Admin-Portal/static/js/453.39230bbb.chunk.js",
     "static/media/background.png": "/Resource-Management-Admin-Portal/static/media/background.c2159e5e3b44b2a1078b.png",
     "index.html": "/Resource-Management-Admin-Portal/index.html",
     "main.135082e2.css.map": "/Resource-Management-Admin-Portal/static/css/main.135082e2.css.map",
-    "main.84f24a8e.js.map": "/Resource-Management-Admin-Portal/static/js/main.84f24a8e.js.map",
+    "main.d1121501.js.map": "/Resource-Management-Admin-Portal/static/js/main.d1121501.js.map",
     "453.39230bbb.chunk.js.map": "/Resource-Management-Admin-Portal/static/js/453.39230bbb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.135082e2.css",
-    "static/js/main.84f24a8e.js"
+    "static/js/main.d1121501.js"
   ]
 }
