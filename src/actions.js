@@ -50,6 +50,9 @@ export const addResourceRequestSuccess = () => ({
 export const addResourceRequestFailure = () => ({
   type: ADD_RESOURCE_REQUEST_FAILURE,
 })
+export const setToInitials = () => ({
+  type: "SET_TO_INITIALS",
+})
 
 export const fetchResources = () => {
   return (dispatch) => {

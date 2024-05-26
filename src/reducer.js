@@ -23,6 +23,7 @@ import {
   };
   
   const reducer = (state = initialState, action) => {
+    console.log(action.type)
     switch (action.type) {
       
       case FETCH_RESOURCES_SUCCESS:
@@ -85,7 +86,13 @@ import {
           ...state,
           addResourceLoader: true
         };
-      
+      case "SET_TO_INITIALS":
+        return {
+          ...state,
+          addResourceError: false,
+          addResourceLoader: false,
+          addResourceSuccess: false
+        }
       default:
         return state;
     }

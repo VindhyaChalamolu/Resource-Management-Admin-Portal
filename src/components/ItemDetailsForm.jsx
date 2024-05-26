@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addResource } from '../actions';
+import { addResource, setToInitials } from '../actions';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 const ItemDetailsForm = () => {
@@ -24,11 +24,16 @@ const ItemDetailsForm = () => {
     backgroundColor: disableButton ? "" : "#0B69FF"
   }
   useEffect(() => {
+    dispatch(setToInitials())
+  },[dispatch])
+  useEffect(() => {
+    console.log("addResourceSuccess",addResourceSuccess)
     if(addResourceError)
       toast.error("Error occuured while creating a resource!")
     if(addResourceSuccess) {
       toast.success("Resource Created Successfuly!");
     }
+    dispatch(setToInitials())
   },[addResourceError, addResourceSuccess])
 
   useEffect(() => {
