@@ -7,7 +7,7 @@ const Navbar = () => {
         <div>
             <nav className="navbar">
                 <Logo />
-                {window.location.pathname !== "/Resource-Management-Admin-Portal/addItem" && <button onClick={() => navigate('/addItem')}>ADD ITEM</button>}
+                {(window.location.pathname !== "/Resource-Management-Admin-Portal/addItem" || window.location.pathname !== "/Resource-Management-Admin-Portal" ) && <button onClick={() => navigate('/addItem')}>ADD ITEM</button>}
                 {/* <i class="fa fa-user" aria-hidden="true"></i> */}
             </nav>
         </div>

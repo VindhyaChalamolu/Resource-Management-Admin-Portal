@@ -23,7 +23,6 @@ import {
   };
   
   const reducer = (state = initialState, action) => {
-    console.log(action.type)
     switch (action.type) {
       
       case FETCH_RESOURCES_SUCCESS:
