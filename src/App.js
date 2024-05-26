@@ -16,7 +16,7 @@ function App() {
       <Router basename="/Resource-Management-Admin-Portal">
         <Navbar />
         <Routes>
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />
           <Route path="/addItem" element={<AddResource />} />
         </Routes>
