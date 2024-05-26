@@ -13,7 +13,7 @@ function App() {
   return (
     <Provider store={store}>
     <div className="App">
-      <Router>
+      <Router basename="/Resource-Management-Admin-Portal">
         <Navbar />
         <Routes>
           <Route path="/" element={<Login />} />
